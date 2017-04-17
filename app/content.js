@@ -6,8 +6,6 @@ import AppFooter from "./containers/AppFooter";
 import AppHeader from "./containers/AppHeader";
 import AppWidgets from "./containers/AppWidgets";
 
-import { _login } from "./actions/auth";
-
 class Content extends Component {
   constructor(props) {
     super(props);
