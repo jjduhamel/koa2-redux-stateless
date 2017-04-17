@@ -1,0 +1,21 @@
+.modal {
+  @include shadow-8dp();
+
+  background: rgba(white, 1);
+  margin: 6px 8px;
+  padding: 4px 12px;
+  z-index: 10;
+
+  .title {
+    padding: 6px 0px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+  }
+
+  .caption {
+    padding: 12px 0px;
+    display: flex;
+    justify-content: center;
+  }
+}

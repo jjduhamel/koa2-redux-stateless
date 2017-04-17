@@ -1,0 +1,39 @@
+.input {
+  align-items: center;
+  color: $graphite;
+  display: flex;
+  padding: 0;
+
+  label {
+    flex-shrink: 1;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+  #{ $all-text-inputs } {
+    background-color: transparent;
+    border-color: $graphite;
+    border-radius: 5px;
+    border-style: solid;
+    color: $graphite;
+    flex: 1;
+    font-size: 24px;
+    outline: none;
+
+    .valid {
+      //border-color: $green;
+    }
+
+    .invalid {
+      border-color: $red;
+    }
+
+    &:focus {
+      border-color: $green;
+    }
+
+    &:hover {
+      border-color: $blue;
+    }
+  }
+}

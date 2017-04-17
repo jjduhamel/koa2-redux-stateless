@@ -1,0 +1,36 @@
+.app-header {
+  padding: 0px 12px;
+  background-color: $yellow;
+  font-family: 'Permanent Marker', cursive;
+  z-index: 10;
+  @include shadow-6dp();
+
+  display: flex;
+  align-items: stretch;
+
+  .header-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    * {
+      color: $red;
+      padding: 6px 12px;
+      font-size: 36px;
+    }
+  }
+
+  .header-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    * {
+      color: $blue;
+      padding: 6px 12px;
+      font-size: 32px;
+    }
+  }
+}

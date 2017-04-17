@@ -1,0 +1,9 @@
+.homepage {
+  flex: 1;
+  display: flex;
+
+  .panel {
+    color: $graphite;
+    flex: 1;
+  }
+}

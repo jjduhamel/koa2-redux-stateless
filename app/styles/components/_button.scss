@@ -1,0 +1,9 @@
+.button {
+  &.text {
+    color: $blue;
+
+    &:hover {
+      color: $green;
+    }
+  }
+}

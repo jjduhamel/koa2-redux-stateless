@@ -1,0 +1,10 @@
+.app-body {
+  padding: 6px 12px;
+  background-image: repeating-linear-gradient(
+    0deg,
+    $green 0px, $green 60px,
+    $chalk 0px, $chalk 64px
+  );
+  font-family: 'Quicksand';
+  display: flex;
+}

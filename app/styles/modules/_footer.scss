@@ -1,0 +1,18 @@
+.app-footer {
+  padding: 0px 6px;
+  background-color: $green;
+  border-top: thin solid $yellow;
+  font-family: 'Quicksand';
+
+  display: flex;
+  justify-content: flex-end;
+
+  * {
+    padding: 0px 4px;
+    color: $yellow;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+}

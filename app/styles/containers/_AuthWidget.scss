@@ -1,0 +1,10 @@
+.auth-widget {
+  height: 100%;
+  width: 100%;
+  max-width: 460px;
+  z-index: 100;
+  visibility: hidden;
+  &.visible {
+    visibility: visible;
+  }
+}

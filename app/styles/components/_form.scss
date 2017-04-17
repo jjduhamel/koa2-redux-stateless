@@ -1,0 +1,32 @@
+.form {
+  padding: 12px;
+
+  button {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: $graphite;
+    background-color: transparent;
+    color: $graphite;
+    font-size: 20px;
+    margin: 6px 0px;
+    padding: 4px 10px;
+    outline: none;
+    width: 100%;
+
+    &:hover {
+      border-color: $blue;
+      color: $blue;
+    }
+
+    &:focus {
+      border-color: $green;
+      color: $green;
+    }
+  }
+
+  input {
+    font-size: 20px;
+    margin: 6px 0px;
+    padding: 4px 10px;
+  }
+}
