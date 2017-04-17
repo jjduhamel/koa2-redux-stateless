@@ -7,12 +7,8 @@ import AppHeader from "./containers/AppHeader";
 import AppWidgets from "./containers/AppWidgets";
 
 class Content extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    let { dispatch, session } = this.props;
+    let { dispatch } = this.props;
     return (
       <div className="app">
         <AppHeader className="app-header" />
@@ -27,7 +23,6 @@ class Content extends Component {
 }
 
 const mapStateToProps = state => {
-  const {} = state;
   return {};
 };
 
